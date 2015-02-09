@@ -41,10 +41,6 @@
 	path = extensions/Nuke
 	url = https://git.wikimedia.org/git/mediawiki/extensions/Nuke.git
 	branch = REL1_19
-[submodule "extensions/OggHandler"]
-	path = extensions/OggHandler
-	url = https://git.wikimedia.org/git/mediawiki/extensions/OggHandler.git
-	branch = REL1_19
 [submodule "extensions/ParserFunctions"]
 	path = extensions/ParserFunctions
 	url = https://git.wikimedia.org/git/mediawiki/extensions/ParserFunctions.git
@@ -98,3 +94,11 @@
 [submodule "extensions/Widgets"]
 	path = extensions/Widgets
 	url = https://github.com/MozillaWiki/mediawiki-widgets.git
+[submodule "extensions/TimedMediaHandler"]
+	path = extensions/TimedMediaHandler
+	url = https://git.wikimedia.org/git/mediawiki/extensions/TimedMediaHandler.git
+	branch = REL1_23
+[submodule "extensions/MwEmbedSupport"]
+	path = extensions/MwEmbedSupport
+	url = https://git.wikimedia.org/git/mediawiki/extensions/MwEmbedSupport.git
+	branch = REL1_23

@@ -459,8 +459,10 @@ require_once("$IP/../extensions/Renameuser/SpecialRenameuser.php");
 require_once("$IP/../extensions/ParserFunctions/ParserFunctions.php");
 require_once("$IP/../extensions/ImageMap/ImageMap.php");
 
+// Bug 1130359
+require("$IP/../extensions/MwEmbedSupport/MwEmbedSupport.php");
+require("$IP/../extensions/TimedMediaHandler/TimedMediaHandler.php");
 $wgFFmpegLocation = '/usr/bin/ffmpeg';
-require("$IP/../extensions/OggHandler/OggHandler.php");
 
 $smwgNamespaceIndex = 132;
 $smwgQMaxSize = 40;
